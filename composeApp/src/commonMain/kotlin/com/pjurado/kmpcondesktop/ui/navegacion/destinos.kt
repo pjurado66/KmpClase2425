@@ -7,4 +7,9 @@ sealed class routes {
     @Serializable
     object Home : routes()
 
+    @Serializable
+    object Episodios : routes()
+
+    @Serializable
+    object Personajes : routes()
 }
